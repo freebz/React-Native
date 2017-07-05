@@ -1,0 +1,10 @@
+rootProject.name = 'AndroidDepends'
+
+include ':app'
+
+include ':react-native-linear-gradient'
+project(':react-native-linear-gradient').projectDir =
+    new File(
+    	rootProject.projectDir,
+	'../note_modules/react-native-linear-gradient/android'
+    )
